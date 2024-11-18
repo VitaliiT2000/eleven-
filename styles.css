@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0e68c;  
+  color: #333;  
+  font-family: 'Arial', sans-serif;  
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  cursor: pointer;  
+  transition: transform 0.2s;  
+}
+
+h1:hover {
+  transform: scale(1.1);
+}
